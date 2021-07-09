@@ -1,0 +1,16 @@
+.texto{
+    font-size: 20px;
+}
+
+.color-fondo{
+    background-color: black;
+}
+
+.texto-color{
+    color: #ffff;
+}
+
+.imagen{
+    width: 300px;
+    height: 300px;
+}

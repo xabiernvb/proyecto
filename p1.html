@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xabier Villablanca-Pagina-1</title>
+     <!--CSS-->
+     <link rel="stylesheet" href="css/style.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        
+    <!--CSS Fade-->
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+</head>
+<body class=" bg-dark">
+
+    <div class="container text-center">
+        <div class="row">
+            <div class="col-12">
+
+
+                <h2 data-aos="fade-right" class="mt-5 texto-color">Hola, me llamo Xabier Villablanca y esta es mi pagina.</h2>
+
+                <img data-aos="fade-right" class="mb-3 mt-4 imagen" src="img/pepe.png">
+                
+                <h3 data-aos="fade-right" class="mt-5 texto-color">Tengo un juego para ti.</h3>
+
+                <p data-aos="fade-right" class=" mt-3  texto-color ">Tienes 8 botones de los cuales solo 2 abren modales</p>
+                <p  data-aos="fade-right" class=" mt-3  texto-color ">Solo tienes 3 intentos</p>
+
+            </div>
+        </div>
+    </div>  
+
+<div class="container text-center mt-3">
+    <div data-aos="fade-right" class="row">
+        <div class="col-12">
+            
+
+            <!---------------------Botones--------------------->
+
+            <a href="#" onclick="boton1()" class="btn btn-warning">Haz Click</a>
+            <a href="#" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#modalUnico1" data-bs-titulo1="">Haz Click</a>
+            <a href="#" onclick="boton2()" class="btn btn-warning">Haz Click</a>
+            <a href="#" onclick="boton3()" class="btn btn-warning">Haz Click</a>
+            
+
+              <!--------------------Modal-------------------->
+            
+            <div  id="modalUnico1" class="modal" tabindex="-1">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                            <div class="modal-header">
+                            <h5 class="modal-title1">Modal title</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <img id="imagenPersona" class="w-100" src="https://pbs.twimg.com/media/E1wDJcYXoAMj3U8.jpg">
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Save changes</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container text-center mt-2">
+    <div data-aos="fade-right" class="row">
+        <div class="col-12">
+
+            <!--------------------Modal-------------------->
+            
+            <div  id="modalUnico2" class="modal" tabindex="-1">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                            <div class="modal-header">
+                            <h5 class="modal-title2">Modal title</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <img id="imagenPersona" class="w-100" src="https://assets.adnradio.cl/2019/12/3963758_n_vir2-437x470.jpg">
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Save changes</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+                <!---------------------Botones--------------------->
+            
+            <a href="#" onclick="boton4()" class="btn btn-warning mb-5">Haz Click</a>
+            <a href="#" onclick="boton5()" class="btn btn-warning mb-5">Haz Click</a>
+            <a href="#" class="btn btn-warning mb-5" data-bs-toggle="modal" data-bs-target="#modalUnico2" data-bs-titulo2="">Haz Click</a>
+            <a href="#" onclick="boton6()" class="btn btn-warning mb-5">Haz Click</a>
+      
+        </div>
+    </div>
+</div>
+
+                <!-------------Cards------------------------->
+
+<div class="container text-center mt-2">
+    <div data-aos="fade-right" class="row">
+        <div class="col-4">
+            <div class="card" style="width: 19rem;">
+                <img src="img/meme1.jpg" class="card-img-top" alt="meme-1">
+            </div>
+        </div>
+
+        <div class="col-4">
+            <div class="card mb-3" style="width: 19rem;">
+                <img src="img/meme2.jpg" class="card-img-top" alt="meme-2">
+            </div>
+        </div>
+
+        <div class="col-4">
+            <div class="card" style="width: 20rem;">
+                <img src="img/meme3.jpeg" class="card-img-top" alt="meme-3">
+            </div>
+        </div>
+
+        </div>
+    </div>
+</div>
+
+
+<div class="container text-center mt-2">
+    <div class="row">
+        <div class="col-12">
+
+            <a href="p2.html" class="btn btn-warning text-center mb-3">Siguiente Pagina</a>
+
+        </div>
+    </div>
+</div>
+
+<!--Script-->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+
+
+<!--JQUERY-->
+<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+
+   <!--Fade-->
+   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+
+
+<!--Script Personalizado-->
+
+<script>
+
+    //Activar AOS
+
+    AOS.init();
+
+
+    function boton1(){
+        alert('Sigue intentando :D')
+    }
+
+    function boton2(){
+        alert('Estas cerca')
+    }
+
+    function boton3(){
+        alert('Intentalo denuevo')
+    }
+
+    //Modal 1
+
+    document.getElementById('modalUnico1').addEventListener('show.bs.modal', function(event){
+ 
+    botonModal1 = event.relatedTarget
+
+    tituloModal = botonModal1.getAttribute('data-bs-titulo1')
+
+    document.querySelector('.modal-title1').innerText = ('Lo haz conseguido, estoy orgulloso')
+
+    });
+
+    function boton4(){
+        alert('Piensa tu proximo boton')
+    }
+
+    function boton5(){
+        alert('Tal vez el proximo sea')
+    }
+
+     //Modal 2
+
+    document.getElementById('modalUnico2').addEventListener('show.bs.modal', function(event){
+ 
+    botonModal2 = event.relatedTarget
+
+    tituloModal = botonModal2.getAttribute('data-bs-titulo2')
+
+    document.querySelector('.modal-title2').innerText = ('Crei que no me encontrarias')
+
+    });
+
+    function boton6(){
+        alert('Buen intento')
+    }
+
+</script>
+    
+</body>
+</html>
